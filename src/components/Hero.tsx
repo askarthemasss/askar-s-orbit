@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { motion } from "framer-motion";
 import { ArrowDown, ExternalLink, FileText } from "lucide-react";
+import heroBg from "@/assets/hero-bg.jpg";
 
 const roles = [
   "Senior Frontend Developer",
@@ -73,6 +74,12 @@ const Hero = () => {
 
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Nebula background image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
+        style={{ backgroundImage: `url(${heroBg})` }}
+      />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/60 to-background" />
       <StarField />
       
       {/* Gradient orbs */}
