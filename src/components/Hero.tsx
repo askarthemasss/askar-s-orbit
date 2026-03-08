@@ -1,6 +1,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { motion } from "framer-motion";
 import { ArrowDown, ExternalLink, FileText } from "lucide-react";
+import heroBg from "@/assets/hero-bg.jpg";
 
 const roles = [
   "Senior Frontend Developer",
