@@ -79,7 +79,7 @@ const Hero = () => {
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40"
         style={{ backgroundImage: `url(${heroBg})` }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-background/30 via-background/60 to-background" />
+      <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/80 to-background" />
       <StarField />
       
       {/* Gradient orbs */}
